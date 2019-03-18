@@ -8,7 +8,7 @@ import com.qaagility.javaee.*;
 public class AppTest {
 
 Calculator myCalc = new Calculator();
-Calcmul Calcmul = new Calcmul();
+//Calcmul myCmul = new Calcmul();
 
       public void testSlow() {
         System.out.println("slow");
@@ -28,11 +28,11 @@ Calcmul Calcmul = new Calcmul();
 
      }
 
-@Test
+//@Test
 	
-      public void testcalcmul1() {
-        assertEquals("Result", 9, Calcmul.mul());
-      }
+      //public void testCalcmul1() {
+       //assertEquals("Result", 9, myCmul.mul());
+     // }
 
     }
 
