@@ -26,9 +26,11 @@ Calcmul Calcmul = new Calcmul();
       public void testCalc() {
         assertEquals("Result", 9, myCalc.add(3,6));
 
+     }
 
+@Test
 	
-      public void testcalcmul1 {
+      public void testcalcmul1() {
         assertEquals("Result", 9, Calcmul.mul());
       }
 
